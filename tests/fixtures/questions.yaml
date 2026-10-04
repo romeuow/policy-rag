@@ -1,0 +1,54 @@
+# Evaluation set: each question must have the expected document among the top-3 citations.
+# Document IDs are the corpus file stems (see `corpus/`).
+- question: "Quantos dias de férias eu tenho direito por ano?"
+  expected_doc: 01-politica-de-ferias
+- question: "Posso dividir minhas férias em mais de um período?"
+  expected_doc: 01-politica-de-ferias
+- question: "Com quanta antecedência preciso solicitar férias?"
+  expected_doc: 01-politica-de-ferias
+- question: "É possível vender parte das férias (abono pecuniário)?"
+  expected_doc: 01-politica-de-ferias
+- question: "Qual o limite diário de alimentação em viagem nacional?"
+  expected_doc: 02-politica-de-reembolso
+- question: "Em quantos dias devo pedir o reembolso de uma despesa?"
+  expected_doc: 02-politica-de-reembolso
+- question: "Quanto é pago por quilômetro rodado usando carro próprio?"
+  expected_doc: 02-politica-de-reembolso
+- question: "Bebidas alcoólicas são reembolsadas?"
+  expected_doc: 02-politica-de-reembolso
+- question: "Qual o tamanho mínimo da senha e de quanto em quanto tempo devo trocá-la?"
+  expected_doc: 03-politica-de-seguranca-da-informacao
+- question: "O que fazer se eu receber um e-mail de phishing?"
+  expected_doc: 03-politica-de-seguranca-da-informacao
+- question: "Em quanto tempo devo comunicar um incidente de segurança?"
+  expected_doc: 03-politica-de-seguranca-da-informacao
+- question: "Posso usar ferramentas de IA generativa com dados de clientes?"
+  expected_doc: 03-politica-de-seguranca-da-informacao
+- question: "Quantos dias por semana preciso ir ao escritório no modelo híbrido?"
+  expected_doc: 04-politica-de-home-office
+- question: "Qual o valor da ajuda de custo para internet no home office?"
+  expected_doc: 04-politica-de-home-office
+- question: "Posso trabalhar remotamente de outro país?"
+  expected_doc: 04-politica-de-home-office
+- question: "Qual a janela de horário em que preciso estar disponível trabalhando remoto?"
+  expected_doc: 04-politica-de-home-office
+- question: "Posso aceitar um presente de um fornecedor? Qual o valor máximo?"
+  expected_doc: 05-codigo-de-conduta
+- question: "Como faço uma denúncia anônima no canal de ética?"
+  expected_doc: 05-codigo-de-conduta
+- question: "O que é considerado conflito de interesses?"
+  expected_doc: 05-codigo-de-conduta
+- question: "Qual o valor do vale-refeição mensal?"
+  expected_doc: 06-politica-de-beneficios
+- question: "Como incluir dependentes no plano de saúde?"
+  expected_doc: 06-politica-de-beneficios
+- question: "Quantos dias de licença-paternidade a empresa concede?"
+  expected_doc: 06-politica-de-beneficios
+- question: "A empresa oferece previdência privada com contrapartida?"
+  expected_doc: 06-politica-de-beneficios
+- question: "Viagens internacionais precisam de aprovação de quem e com qual antecedência?"
+  expected_doc: 07-politica-de-viagens
+- question: "Se eu viajar a trabalho no fim de semana, tenho direito a folga compensatória?"
+  expected_doc: 07-politica-de-viagens
+- question: "Posso alugar um carro em uma viagem a trabalho?"
+  expected_doc: 07-politica-de-viagens
